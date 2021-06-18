@@ -10,7 +10,7 @@
   <url>https://developer.amazon.com/appsandservices/solutions/alexa/alexa-voice-service</url>
 
   <properties>
-    <jetty.version>9.4.35.v20201120</jetty.version>
+    <jetty.version>9.4.39.v20210325</jetty.version>
     <!-- The latest version of alpn-boot that supports JDK 1.8.0_71 through 1.8.0_74 -->
     <!-- To override, pass -Dalpn-boot.version=YOUR_VERSION when running "mvn install" and "mvn exec:exec" -->
     <!-- Your version can be determined here: http://www.eclipse.org/jetty/documentation/current/alpn-chapter.html#alpn-versions -->
@@ -22,12 +22,12 @@
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.9</version>
+      <version>1.13</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.4</version>
+      <version>2.7</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
